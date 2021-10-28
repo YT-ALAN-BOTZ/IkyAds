@@ -59,9 +59,9 @@ const speed = require('performance-now')
 
 
 publik = false
-cr = 'Iky Ads'
+cr = 'By Alan Botz'
 prefix = '.'
-fake = '*Iky Ads✅*'
+fake = '*Alan Botz✅*'
 numbernye = '0'
 targetprivate = '62895414817057'
 ghoibsu = 'tes'
@@ -76,7 +76,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG:あＭｅＩｋｙツ;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6283141727903:+62  831-4172-7903\n' 
             + 'END:VCARD' 
-prefix = '.'
+prefix = '#'
 blocked = []   
 limitawal = 9999999
 memberlimit = 1
@@ -84,9 +84,9 @@ memberlimit = 1
 /*
 ]=====> SETTING DI SINI KEBAWAH BIARIN AJG <=====[
 */
-const ownerNumber = ["6283141727903@s.whatsapp.net","6283141727903@s.whatsapp.net"]
-const botName = 'あＭｅＩｋｙツ'
-const ownerName = 'あＭｅＩｋｙツ'
+const ownerNumber = ["6285718366706@s.whatsapp.net","6285718366706@s.whatsapp.net"]
+const botName = 'Alan Botz'
+const ownerName = 'あAlan Ganz'
 const BarBarKey = 'tempel sini' // APIKEY BELI DI IKY
 const VhtearKey = '1BlnApiIkyPake' // beli di 083141727903
 const XteamKey = 'AbilGanss' // APIKEY XTEAM BELI SENDIRI:V
@@ -828,12 +828,18 @@ break
 
 const util = require('util')
 
-case '?':
-case '>':
-case '$':
-var ikyyyy = args.join(' ')
-reply(util.format(eval(`;(async () => { ${ikyyyy} })()`)))
-console.log(ikyyyy)
+case '?':
+
+case '>':
+
+case '$':
+
+var ikyyyy = args.join(' ')
+
+reply(util.format(eval(`;(async () => { ${ikyyyy} })()`)))
+
+console.log(ikyyyy)
+
 break
 //////EVAL
             case 'stickergif':
